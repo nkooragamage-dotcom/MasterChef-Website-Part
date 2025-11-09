@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soup Recipes</title>
+    <link rel="stylesheet" href="soup.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Soup Recipes</h1>
+        <nav>
+            <ul>
+                <li><a href="#chicken-soup">Chicken Soup</a></li>
+                <li><a href="#vegetable-soup">Vegetable Soup</a></li>
+                <li><a href="#lentil-soup">Lentil Soup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="chicken-soup">
+            <h2>Chicken Soup</h2>
+            <img src="gettyimages-1226768011-612x612.jpg">
+            <p>This classic chicken soup recipe is perfect for a comforting meal. It's packed with flavor and nutrients.</p>
+            <button onclick="showRecipe('chicken-soup')">Show Recipe</button>
+            <div id="chicken-soup-recipe" class="recipe-content">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1 whole chicken</li>
+                    <li>2 carrots, chopped</li>
+                    <li>2 celery stalks, chopped</li>
+                    <li>1 onion, chopped</li>
+                    <li>2 cloves garlic, minced</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <p>1. In a large pot, cook the chicken until done.</p>
+                <p>2. Remove the chicken and set aside. Sauté the vegetables in the pot.</p>
+                <p>3. Shred the chicken and return to the pot.</p>
+                <p>4. Simmer for 30 minutes. Season with salt and pepper.</p>
+            </div>
+        </section>
+
+        <section id="vegetable-soup">
+            <h2>Vegetable Soup</h2>
+            <img src="istockphoto-1327421914-612x612.jpg">
+            <p>A hearty vegetable soup that’s both healthy and delicious. Great for any time of the year!</p>
+            <button onclick="showRecipe('vegetable-soup')">Show Recipe</button>
+            <div id="vegetable-soup-recipe" class="recipe-content">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1 onion, chopped</li>
+                    <li>2 carrots, chopped</li>
+                    <li>2 potatoes, diced</li>
+                    <li>1 cup green beans</li>
+                    <li>4 cups vegetable broth</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <p>1. Sauté the onion and carrots until soft.</p>
+                <p>2. Add the potatoes, green beans, and broth.</p>
+                <p>3. Simmer until vegetables are tender. Season with salt and pepper.</p>
+            </div>
+        </section>
+
+        <section id="lentil-soup">
+            <h2>Lentil Soup</h2>
+            <img src="lentil.jpg">
+            <p>This lentil soup is full of rich flavors and is packed with protein. Perfect for a filling meal!</p>
+            <button onclick="showRecipe('lentil-soup')">Show Recipe</button>
+            <div id="lentil-soup-recipe" class="recipe-content">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1 cup lentils</li>
+                    <li>1 onion, chopped</li>
+                    <li>2 garlic cloves, minced</li>
+                    <li>2 carrots, chopped</li>
+                    <li>4 cups vegetable broth</li>
+                    <li>1 can diced tomatoes</li>
+                    <li>Salt and pepper to taste</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <p>1. Sauté the onion, garlic, and carrots until soft.</p>
+                <p>2. Add the lentils, broth, and tomatoes.</p>
+                <p>3. Simmer until lentils are tender. Season with salt and pepper.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Soup Recipes. All rights reserved.</p>
+    </footer>
+
+    <script src="soup.js"></script>
+</body>
+</html>
